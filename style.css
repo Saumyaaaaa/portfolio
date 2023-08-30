@@ -153,10 +153,58 @@
     .footer  .box-four{
       display: flex;
       justify-content: space-around;
-      
-   
-
-
-
+    
     }
 
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+/* Media Query for screens smaller than 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; /* Adjust the font size for smaller screens */
+  }
+
+  .firstSection {
+    flex-direction: column; /* Stack the content vertically */
+    text-align: center;
+  }
+
+  .firstSection > div {
+    width: 100%; /* Take full width on smaller screens */
+    margin-bottom: 20px; /* Add some spacing between sections */
+  }
+
+  .rightSection img {
+    width: 100%; /* Make the image take full width on smaller screens */
+  }
+
+  .secondSection .box-container {
+    flex-direction: column; /* Stack the boxes vertically */
+    align-items: center;
+  }
+}
+
+/* Media Query for screens smaller than 576px */
+@media (max-width: 576px) {
+  nav {
+    flex-direction: column; /* Stack the navigation vertically */
+    text-align: center;
+  }
+
+  nav ul {
+    margin-top: 10px; /* Add spacing between navigation items */
+  }
+}
+ 
