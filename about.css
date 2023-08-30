@@ -1,0 +1,57 @@
+ .firstSection{
+  display: flex;
+  margin: 130px ;
+ }
+  
+  
+ .rightSection h1{
+font-size: 100px;
+margin-top: -72px;
+margin-left: 250px;
+
+ }
+
+
+ .rightSection h3{
+  
+ margin-top: -8vh;
+  margin-left: 250px;
+  font-size: 25px;
+  
+   }
+
+
+
+   .rightSection p{
+    margin-left: 250px;
+
+
+   }
+
+
+
+   .leftSection img{
+    display: flex;
+    width: 200%;
+    height: 100%;
+    margin-top:-30px ;
+  
+  
+   }
+
+
+button{
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 256px;
+  margin-top: 10px;
+}
+button:hover{
+  font-size: 2.02rem;
+}
+
+ span{
+  color: blue;
+ }
