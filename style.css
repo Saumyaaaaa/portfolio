@@ -32,7 +32,7 @@
    color: white;
   }
   nav ul li a:hover{
-    color: plum;
+    color: rgb(221, 160, 221);
     font-size: 1.02rem;
   }
   main hr{
@@ -43,7 +43,11 @@
   }
   .left{
     font-size: 1.5rem;
+
     
+  }
+  .left span{
+    color:rgb(245, 39, 207); 
   }
   .firstSection {
     display: flex;
@@ -197,7 +201,7 @@
 }
 
 /* Media Query for screens smaller than 576px */
-@media (max-width: 576px) {
+@media (max-width: 400px) {
   nav {
     flex-direction: column; /* Stack the navigation vertically */
     text-align: center;

@@ -55,3 +55,55 @@ button:hover{
  span{
   color: blue;
  }
+
+
+
+
+
+
+
+
+
+
+
+ /* Media query for screens up to 400px */
+@media (max-width: 400px) {
+  .firstSection {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .rightSection h1,
+  .rightSection h3,
+  .rightSection p,
+  .leftSection img,
+  button {
+    margin: 0;
+    text-align: center;
+  }
+
+  .rightSection h1 {
+    font-size: 60px;
+    margin-top: 0;
+  }
+
+  .rightSection h3 {
+    font-size: 18px;
+    margin-top: -6vh;
+  }
+
+  .rightSection p {
+    font-size: 16px;
+  }
+
+  .leftSection img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  button {
+    margin: 10px 0;
+  }
+}
